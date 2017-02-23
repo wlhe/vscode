@@ -1,0 +1,11 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "alt+f",
+        "command": "workbench.action.navigateForward"
+    },
+    {
+        "key": "alt+b",
+        "command": "workbench.action.navigateBack"
+    }
+]

@@ -1,0 +1,30 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.wrappingColumn": 120,
+    "editor.renderIndentGuides": true,
+    "files.associations": {
+        "*.extension": "*.s"
+    },
+    "editor.formatOnSave": true,
+    "editor.fontSize": 15
+}
+/*
+----------------------------
+    Extensions:
+    ARM
+    C/C++
+    C/C++ Clang
+    CMake
+    CMake Tools
+    C++ Intellisense
+    Iclude Autocomplete
+----------------------------
+    Themes:
+    Material-theme
+    One Dark (Sublime Bable)
+    One Monokai Theme
+*   windtheme
+    XT Color theme
+    zacks Theme
+----------------------------
+*/
