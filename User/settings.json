@@ -6,20 +6,32 @@
         "*.extension": "*.s"
     },
     "editor.formatOnSave": true,
-    "editor.fontSize": 15
+    "editor.fontSize": 15,
+    "markdown.extension.preview.autoShowPreviewToSide": true
 }
 /*
 ----------------------------
-    Extensions:
+Extensions:
     ARM
     C/C++
     C/C++ Clang
-    CMake
-    CMake Tools
     C++ Intellisense
     Iclude Autocomplete
+
+    CMake
+    CMake Tools
+
+    Python
+    Python Extended
+    Python for VSCODE
+    Python-autopep8
+    Docker Linter
+
+    Markdown All in One
+    Markdown Shortcuts
+    Word Count
 ----------------------------
-    Themes:
+Themes:
     Material-theme
     One Dark (Sublime Bable)
     One Monokai Theme
