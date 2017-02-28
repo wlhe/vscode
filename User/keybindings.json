@@ -1,11 +1,11 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "alt+f",
+        "key": "alt+d",
         "command": "workbench.action.navigateForward"
     },
     {
-        "key": "alt+b",
+        "key": "alt+a",
         "command": "workbench.action.navigateBack"
     },
     {
@@ -19,8 +19,13 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+d",
+        "key": "alt+q",
         "command": "editor.action.previewDeclaration",
         "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+    },
+    {
+        "key": "alt+e",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
     }
 ]

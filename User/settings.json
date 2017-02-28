@@ -7,7 +7,8 @@
     },
     "editor.formatOnSave": true,
     "editor.fontSize": 15,
-    "markdown.extension.preview.autoShowPreviewToSide": true
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "clang-format.executable": "clang-format"
 }
 /*
 ----------------------------
