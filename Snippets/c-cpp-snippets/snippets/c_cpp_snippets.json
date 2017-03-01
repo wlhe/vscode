@@ -6,7 +6,7 @@
 			"{",
 			"	${1:/* code */}",
 			"	return 0;",
-			"}"
+			"}\n"
 		],
 		"description": "main(…)"
 	},
@@ -127,5 +127,30 @@
 		"prefix": "#include",
 		"body": "#include <$1>",
 		"description": "#include <..>"
+	},
+	"#ifelif": {
+		"prefix": "#ifelif",
+		"body": [
+			"#if $1",
+			"	$3",
+			"#elif $2",
+			"	$4",
+			"#endif"
+		]
+	},
+	"fileheader": {
+		"prefix": "fileheader",
+		"body": [
+			"/**",
+			"******************************************************************************",
+			"* @file	$1",
+			"* @author 	$2",
+			"* @version",
+			"* @date",
+			"* @brief",
+			"******************************************************************************",
+			"*/"
+		],
+		"description": "File Header"
 	}
 }
