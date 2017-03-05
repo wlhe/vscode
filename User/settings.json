@@ -1,13 +1,15 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.wrappingColumn": 120,
     "editor.renderIndentGuides": true,
     "files.associations": {
         "*.extension": "*.s"
     },
     "editor.formatOnSave": true,
     "editor.fontSize": 15,
-    "markdown.extension.preview.autoShowPreviewToSide": true
+    "markdown.extension.preview.autoShowPreviewToSide": true,
+    "workbench.colorTheme": "windtheme",
+    "workbench.iconTheme": "vscode-icons",
+    "clang-format.style": "{UseTab: Never,IndentWidth: 4,BreakBeforeBraces: Allman,AllowShortIfStatementsOnASingleLine: false,IndentCaseLabels: false,ColumnLimit: 0,SortIncludes: true}"
 }
 /*
 ----------------------------
@@ -30,6 +32,8 @@ Extensions:
     Markdown All in One
     Markdown Shortcuts
     Word Count
+
+    Include Autocomplete
 ----------------------------
 Themes:
     Material-theme

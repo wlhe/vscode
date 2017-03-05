@@ -1,2 +1,5 @@
 *.o
+*.vsix
+*.log.*
+test/
 
