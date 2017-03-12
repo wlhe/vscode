@@ -1,0 +1,49 @@
+{
+    "name": "wind-keymaps",
+    "displayName": "Wind keymaps",
+    "description": "Key maps",
+    "version": "0.0.1",
+    "publisher": "wlhe",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Keymaps"
+    ],
+    "contributes": {
+        "keybindings": [
+            {
+                "key": "alt+d",
+                "command": "workbench.action.navigateForward"
+            },
+            {
+                "key": "alt+a",
+                "command": "workbench.action.navigateBack"
+            },
+            {
+                "key": "alt+q",
+                "command": "editor.action.previewDeclaration",
+                "when": "editorHasDefinitionProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor"
+            },
+            {
+                "key": "alt+e",
+                "command": "editor.action.goToDeclaration",
+                "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+            },
+            {
+                "key": "alt+l",
+                "command": "editor.action.transformToLowercase",
+                "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "alt+u",
+                "command": "editor.action.transformToUppercase",
+                "when": "editorTextFocus && !editorReadonly"
+            }
+        ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wlhe/vscode/tree/master/Keymaps/wind-keymaps"
+    }
+}
