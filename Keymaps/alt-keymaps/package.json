@@ -1,8 +1,8 @@
 {
-    "name": "wind-keymaps",
-    "displayName": "Wind keymaps",
-    "description": "Key maps",
-    "version": "0.0.1",
+    "name": "alt-keymaps",
+    "displayName": "Alt keymaps",
+    "description": "A set of alt+ shortcuts",
+    "version": "0.0.2",
     "publisher": "wlhe",
     "engines": {
         "vscode": "^1.5.0"
@@ -10,6 +10,7 @@
     "categories": [
         "Keymaps"
     ],
+    "icon": "icon.png",
     "contributes": {
         "keybindings": [
             {
@@ -39,11 +40,16 @@
                 "key": "alt+u",
                 "command": "editor.action.transformToUppercase",
                 "when": "editorTextFocus && !editorReadonly"
+            },
+            {
+                "key": "alt+s",
+                "command": "C_Cpp.SwitchHeaderSource",
+                "when": "editorTextFocus"
             }
         ]
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/wlhe/vscode/tree/master/Keymaps/wind-keymaps"
+        "url": "https://github.com/wlhe/vscode/tree/master/Keymaps/alt-keymaps"
     }
 }
