@@ -14,35 +14,35 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#171B21</string>
+				<string>#22242E</string>
 				<key>foreground</key>
 				<string>#ABB2BF</string>
 				<key>caret</key>
 				<string>#F8F8F0</string>
 				<key>invisibles</key>
-				<string>#1E2533</string>
+				<string>#3F4963</string>
 				<key>guide</key>
-				<string>#1E2533</string>
+				<string>#313642</string>
 				<key>hoverHighlight</key>
 				<string>#2d2c2a</string>
 				<key>referenceHighlight</key>
 				<string>#292b2f</string>
 				<key>lineHighlight</key>
-				<string>#1B1D24</string>
+				<string>#272935</string>
 				<key>rangeHighlight</key>
 				<string>#1E2533</string>
 				<key>selection</key>
-				<string>#272D36</string>
+				<string>#4F535C</string>
 				<key>inactiveSelection</key>
-				<string>#202329</string>
+				<string>#4F535C</string>
 				<key>selectionHighlight</key>
-				<string>#232525</string>
+				<string>#848F94</string>
 				<key>findRangeHighlight</key>
 				<string>#292b2f</string>
 				<key>findMatchHighlight</key>
-				<string>#232525</string>
+				<string>#464A52</string>
 				<key>currentFindMatchHighlight</key>
-				<string>#474334</string>
+				<string>#6E767A</string>
 				<key>wordHighlight</key>
 				<string>#2d2c2a</string>
 				<key>wordHighlightStrong</key>
@@ -196,7 +196,7 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#36E5F5</string>
+				<string>#28CCDE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -370,6 +370,6 @@
 	<key>semanticClass</key>
 	<string>theme.dark.windtheme_color</string>
 	<key>author</key>
-	<string>xhi2art</string>
+	<string>wlhe</string>
 </dict>
 </plist>
